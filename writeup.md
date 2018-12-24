@@ -193,9 +193,9 @@ The code for making predictions on my final model is located in the 32nd cell of
 |Prediction 5 - Turn right ahead                         | 0%|
 |Prediction Matching!||
 ### Image 3
-|Actual Image Label: Speed limit (30km/h)
+|Actual Image Label: Speed limit (30km/h)||
 |----------------------------|-----------------------------------|
-|Top 5 predictions with their probability percentage:
+|Top 5 predictions with their probability percentage:||
 |Prediction 1 - Speed limit (30km/h)                     | 100%
 |Prediction 2 - Speed limit (20km/h)                     | 0%
 |Prediction 3 - Speed limit (50km/h)                     | 0%
@@ -213,9 +213,9 @@ The code for making predictions on my final model is located in the 32nd cell of
 |Prediction 5 - Speed limit (60km/h)                     | 0%
 |Prediction Matching!
 ### Image 5
-|Actual Image Label: Keep right
+|Actual Image Label: Keep right||
 |----------------------------|-----------------------------------|
-|Top 5 predictions with their probability percentage:
+|Top 5 predictions with their probability percentage:||
 |Prediction 1 - Keep right                               | 100%
 |Prediction 2 - Keep left                                | 0%
 |Prediction 3 - Yield                                    | 0%
@@ -223,9 +223,9 @@ The code for making predictions on my final model is located in the 32nd cell of
 |Prediction 5 - Stop                                     | 0%
 |Prediction Matching!
 ### Image 6
-|Actual Image Label: Yield
+|Actual Image Label: Yield||
 |----------------------------|-----------------------------------|
-|Top 5 predictions with their probability percentage:
+|Top 5 predictions with their probability percentage:||
 |Prediction 1 - Yield                                    | 100%
 |Prediction 2 - No vehicles                              | 0%
 |Prediction 3 - Keep left                                | 0%
@@ -233,9 +233,9 @@ The code for making predictions on my final model is located in the 32nd cell of
 |Prediction 5 - Bumpy road                               | 0%
 |Prediction Matching!
 ### Image 7
-|Actual Image Label: General caution
+|Actual Image Label: General caution||
 |----------------------------|-----------------------------------|
-|Top 5 predictions with their probability percentage:
+|Top 5 predictions with their probability percentage:||
 |Prediction 1 - General caution                          | 100%
 |Prediction 2 - Traffic signals                          | 0%
 |Prediction 3 - Pedestrians                              | 0%
@@ -243,9 +243,9 @@ The code for making predictions on my final model is located in the 32nd cell of
 |Prediction 5 - Keep left                                | 0%
 |Prediction Matching!
 ### Image 8
-|Actual Image Label: Speed limit (60km/h)
+|Actual Image Label: Speed limit (60km/h)||
 |----------------------------|-----------------------------------|
-|Top 5 predictions with their probability percentage:
+|Top 5 predictions with their probability percentage:||
 |Prediction 1 - Speed limit (60km/h)                     | 100%
 |Prediction 2 - Speed limit (50km/h)                     | 0%
 |Prediction 3 - No passing                               | 0%
@@ -253,9 +253,9 @@ The code for making predictions on my final model is located in the 32nd cell of
 |Prediction 5 - Speed limit (80km/h)                     | 0%
 |Prediction Matching!
 ### Image 9
-|Actual Image Label: Bumpy road
+|Actual Image Label: Bumpy road||
 |----------------------------|-----------------------------------|
-|Top 5 predictions with their probability percentage:
+|Top 5 predictions with their probability percentage:||
 |Prediction 1 - Bumpy road                               | 100%
 |Prediction 2 - Bicycles crossing                        | 0%
 |Prediction 3 - Children crossing                        | 0%
@@ -282,15 +282,15 @@ But I leave the project with the following questions in mind.
 
 1.  When I train my model from scratch, accuracy differs by 1-2% each time. The interesting thing is that the accuracy of the images downloaded from web also varies sometimes. What is causing this variation even thought the training set and the model architecture are same each time?
 
-I believe the randomization of weights and shuffling of data can cause this. Are there any other factors that effect the accuracy?
+    I believe the randomization of weights and shuffling of data can cause this. Are there any other factors that effect the accuracy?
 
 2. For a self driving car, dont we need 100% accuracy in determining anything. As there are lives at stake? 
 
-My thoughts are that multiple algorithms run together to back each others desicion to arrive at a 100% accuracy before taking any decisions. 
+    My thoughts are that multiple algorithms run together to back each others desicion to arrive at a 100% accuracy before taking any decisions. 
 
 3. In this CNN we have taken cropped images in a specific size and resolution to determine the traffic sign. But in the real world we might have to process these signs in real time from the video frames like the lane finding projects. 
 
-Will be looking forward to learn techniques on doing the same from a video feed instead of static images. 
+    Will be looking forward to learn techniques on doing the same from a video feed instead of static images. 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
